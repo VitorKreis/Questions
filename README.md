@@ -8,6 +8,8 @@ Este e um site simples de perguntas e respostas feito em node e sql
 
 -O link do js no arquivos footer.ejs
 
+-Crie o banco de dados no sql com o nome "Perguntas"
+
 Outra coisa, desculpe se nao funcionar ainda estou aprendendo a postar codigos no GitHub, mas se possivel me informe e vou tentar arrumar
 
 
