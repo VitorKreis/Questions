@@ -1,0 +1,31 @@
+<%- include('partials/header.ejs') %>
+<body>
+    <%- include('partials/nave-bar.ejs') %>
+
+
+    <div class="container">
+
+
+        <div class="card-header m-2" style="border-radius: 25px; background-color: #111111;box-shadow: 7px 8px 10px #222327;">
+            <h1 style="color: white">Perguntas</h1>
+            <a href="/perguntar" class="btn btn-dark"  style="border-radius: 25px;" >Perguntar</a>
+        </div>
+        <% Perguntas.forEach(Perguntas => {  %> 
+            
+            <br>
+            <div class="card-header m-2 p-3" style="border-radius: 25px; background-color: #111111; opacity: 86.7%; box-shadow: 9px 7px 10px #222327; ">
+                    <h3 style="color:white"><%= Perguntas.titulo %></h3>
+                    <br>
+                    <a href="/pergunta/ <%= Perguntas.id %>"><button class="btn btn-secondary" style="border-radius: 25px;">Responder</button></a>  
+            </div>
+
+        <% }) %>
+
+    </div>
+
+   
+
+
+</body> 
+<%- include('partials/footer.ejs') %>
+
