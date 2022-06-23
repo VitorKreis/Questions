@@ -1,0 +1,26 @@
+{
+  "name": "questions",
+  "version": "1.0.0",
+  "description": "Este e um site simples de perguntas e respostas feito em node e sql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorKreis/Questions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitorKreis/Questions/issues"
+  },
+  "homepage": "https://github.com/VitorKreis/Questions#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
+  }
+}
